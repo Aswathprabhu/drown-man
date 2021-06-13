@@ -18,7 +18,6 @@
   position: absolute;
   top: 21px;
   left: 125px;
-  animation: rock 1s alternate infinite ease-in-out;
   transform-origin: center bottom;
 }
 
@@ -73,7 +72,6 @@
   position: absolute;
   top: 86px;
   left: 49px;
-  animation: wave 1s alternate infinite ease-in-out;
   transform-origin: 100%;
 }
 
@@ -94,7 +92,6 @@
   position: absolute;
   top: 86px;
   left: 153px;
-  animation: wave2 1s alternate infinite ease-in-out;
   transform-origin: 0%;
 }
 

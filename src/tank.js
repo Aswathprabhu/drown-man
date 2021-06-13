@@ -2,11 +2,13 @@ import "./tank.css";
 import Person from "./person";
 
 export default function Tank({ waterLevel }) {
+  const canAnimate = waterLevel === 75;
+
   return (
     <div className="tank-container">
       <div className="water-tank">
         <div className="liquid">
-          <Person />
+          <Person animate={canAnimate} />
           <svg
             className="water"
             viewBox="0 0 200 100"
